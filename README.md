@@ -1,6 +1,8 @@
 # Traffic-Road-Simulator
 
-This is a program for a simulation of a typical reckless Indian road. These simulations can be used for various kind of road-safety studies. Here, the vehicles on the road, their sizes, speeds, the width of the road etc. are user defined. This simulation exhibits various behaviours like Vehicles changing lanes to overtake, bikes moving in a zig zag way to overtake, rickshaws getting stuck due to their reckless behaviour of trying to just go ahead without considering the space available and thus causing a traffic jam behind them, some vehicles skipping the red signals etc. These are some of the most commonly observed traffic patterns in India and so this model would be useful for studying the behaviour of an **Indian** road. The important details for this are as follows:
+This is a program for a simulation of a typical reckless Indian road. These simulations can be used for various kind of road-safety studies. Here, the vehicles on the road, their sizes, speeds, the width of the road etc. are user defined. This simulation exhibits various behaviours like Vehicles changing lanes to overtake, bikes moving in a zig zag way to overtake, rickshaws getting stuck due to their reckless behaviour of trying to just go ahead without considering the space available and thus causing a traffic jam behind them, some vehicles skipping the red signals etc. These are some of the most commonly observed traffic patterns in India and so this model would be useful for studying the behaviour of an **Indian** road
+
+## Details
 
 1. The configuration file is **otherConfig.txt**
 2. The contents of the configuration file are read and processed by the code: **Parser.cpp**
@@ -36,3 +38,6 @@ This is a program for a simulation of a typical reckless Indian road. These simu
         * To maintain some fairness in the structure of the road, we have decided to implement the Road such that it’s width is only a multiple of 4
         * The Dimensions of Motor Rickshaw are to be fixed as “2 * 2”
         * The Dimensions of Bike, Cycle etc. are fixed as “3 * 1”
+4. **open.cpp** is the code for getting the openGL animation for the road. Here, the vehicles are represented as colored rectangles, specified in the configuration file. Also, the stuck rickshaws are represented as as rhombus.         
+
+
