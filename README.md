@@ -39,5 +39,5 @@ This is a program for a simulation of a typical reckless Indian road. These simu
         * The Dimensions of Motor Rickshaw are to be fixed as “2 * 2”
         * The Dimensions of Bike, Cycle etc. are fixed as “3 * 1”
 4. **open.cpp** is the code for getting the openGL animation for the road. Here, the vehicles are represented as colored rectangles, specified in the configuration file. Also, the stuck rickshaws are represented as as rhombus.         
-
+5. By running the **Parser.cpp**, the simulation is visualised in the Terminal. Also, note that this simuation is discrete in time with each time step being 1 or 0.5 seconds.
 
