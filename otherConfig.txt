@@ -1,0 +1,128 @@
+Road_Id = 1			
+Road_Length = 30	
+Road_Width = 24
+Road_Signal = 10 	
+Road_Yellow = 5 	
+Road_Zebra_Width = 5	
+Road_Signal_Position = 15
+
+Default_LaneChange = 1		
+Default_Acceleration = 1	
+End_Time = 100
+Total_vehicles_on_road = 25
+Total_Vehicles = 30
+			
+Vehicle_Type = Human
+Vehicle_Length = 1
+Vehicle_Width = 1
+Vehicle_MaxSpeed = 1
+Vehicle_Acceleration = 1
+Vehicle_Break = 1
+Vehicle_LaneChange = 1
+
+
+Vehicle_Type = Cycle_Rickshaw	
+Vehicle_Length = 4			
+Vehicle_Width = 3			
+Vehicle_MaxSpeed = 1			
+Vehicle_Acceleration = 1
+Vehicle_Break = 1
+Vehicle_LaneChange = 1
+
+
+Vehicle_Type = Cycle
+Vehicle_Length = 3
+Vehicle_Width = 1
+Vehicle_MaxSpeed = 1
+Vehicle_Acceleration = 1
+Vehicle_Break = 1
+Vehicle_LaneChange = 1
+
+Vehicle_Type = Scooter
+Vehicle_Length = 3
+Vehicle_Width = 1
+Vehicle_MaxSpeed = 1
+Vehicle_Acceleration = 1
+Vehicle_Break = 2
+Vehicle_LaneChange = 1
+
+Vehicle_Type = Motor_Rickshaw
+Vehicle_Length = 2
+Vehicle_Width = 2
+Vehicle_MaxSpeed = 1
+Vehicle_Acceleration = 1
+Vehicle_Break = 2
+Vehicle_LaneChange = 1
+
+Vehicle_Type = Bus
+Vehicle_Length = 8
+Vehicle_Width = 3
+Vehicle_MaxSpeed = 2
+Vehicle_Acceleration = 1
+Vehicle_Break = 1
+Vehicle_LaneChange = 1
+
+Vehicle_Type = Truck
+Vehicle_Length = 6
+Vehicle_Width = 3
+Vehicle_MaxSpeed = 2
+Vehicle_Acceleration = 1
+Vehicle_Break = 1
+Vehicle_LaneChange = 1
+
+Vehicle_Type = Bike
+Vehicle_Length = 3
+Vehicle_Width = 1
+Vehicle_MaxSpeed = 2
+Vehicle_Acceleration = 1
+Vehicle_Break = 2
+Vehicle_LaneChange = 1
+
+Vehicle_Type = Alto		
+Vehicle_Length = 3
+Vehicle_Width = 3
+Vehicle_MaxSpeed = 2
+Vehicle_Acceleration = 1
+Vehicle_Break = 2
+Vehicle_LaneChange = 1
+
+START
+
+Alto A
+Bus B
+Truck T
+Alto L
+Bus U
+Truck R
+
+#Is it controlled by the code? #
+Signal RED			# Make the signal RED #
+Start_Time = 25
+# Send vehicles with given types on the road (one per second) #
+
+Cycle A
+Motor_Rickshaw B
+Motor_Rickshaw C
+Alto D
+Alto F
+Bus G
+Truck H
+
+
+Pass 25		# Let the simulation keep running for 15 seconds #	
+
+# Now below vehicles enter the road #
+
+Alto I
+Motor_Rickshaw K
+Alto P
+
+# Human C #
+# Human D #
+
+END			# If signal is GREEN, end should wait till road is clear #
+
+
+
+
+
