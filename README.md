@@ -7,6 +7,7 @@ This is a program for a simulation of a typical reckless Indian road. These simu
 1. The configuration file is **otherConfig.txt**
 2. The contents of the configuration file are read and processed by the code: **Parser.cpp**
 3. The information about the configuration file is given as:
+```
     * The variable Road_Id is just defined to index a road for the simulation number.
     * The variable Road_Length and Road_Width are just the dimensions, Road_Signal_Position is the position of the traffic signal and Road_Zebra_Width is the width of the corresponding traffic signal. 
     * The variable Road_Yellow was initially thought to describe a yellow signal for the traffic signals, but it wasn’t implemented as well because of the ordinary traffic signals being only in Red and Green in most of the Indian citites.
@@ -38,6 +39,7 @@ This is a program for a simulation of a typical reckless Indian road. These simu
         * To maintain some fairness in the structure of the road, we have decided to implement the Road such that it’s width is only a multiple of 4
         * The Dimensions of Motor Rickshaw are to be fixed as “2 * 2”
         * The Dimensions of Bike, Cycle etc. are fixed as “3 * 1”
+```
 4. **open.cpp** is the code for getting the openGL animation for the road. Here, the vehicles are represented as colored rectangles, specified in the configuration file. Also, the stuck rickshaws are represented as as rhombus.         
 5. By running the **Parser.cpp**, the simulation is visualised in the Terminal. Also, note that this simuation is discrete in time with each time step being 1 or 0.5 seconds.
 
