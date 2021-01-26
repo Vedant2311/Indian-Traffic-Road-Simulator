@@ -1,4 +1,4 @@
-# Traffic-Road-Simulator
+# Indian-Traffic-Road-Simulator
 
 This is a program for a simulation of a typical reckless Indian road. These simulations can be used for various kind of road-safety studies. Here, the vehicles on the road, their sizes, speeds, the width of the road etc. are user defined. This simulation exhibits various behaviours like Vehicles changing lanes to overtake, bikes moving in a zig zag way to overtake, rickshaws getting stuck due to their reckless behaviour of trying to just go ahead without considering the space available and thus causing a traffic jam behind them, some vehicles skipping the red signals etc. These are some of the most commonly observed traffic patterns in India and so this model would be useful for studying the behaviour of an **Indian** road
 
