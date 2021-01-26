@@ -25,7 +25,9 @@ This is a program for a simulation of a typical reckless Indian road. These simu
     * The traffic signals are changed by the code itself and they don’t need to be mentioned repeatedly!
     * The comments in this file should start and end by a ‘#’ symbol
     * All the Vehicle types have to be defined before the START signal
-    * All the Vehicles defined between the ‘Start_time’and a ‘Pass’ or between two ‘Pass’ are initiated simultaneously and will run into the simulation after the corresponding Pass signal. These vehicles are initiated behind the starting line of the road. (This line indicates that these vehicles are coming in the viewed section of the road). While the Vehicles defined before the ‘SIGNAL X’ are the ones which are already initiated just at the zebra crossing. This feature is for representational purposes. (The rickshaw getting into an angle or the bike moving zig-zag to get the farthest it can get)
+    * All the Vehicles defined between the ‘Start_time’and a ‘Pass’ or between two ‘Pass’ are initiated simultaneously and will run into the simulation after the corresponding Pass signal. 
+    * These vehicles are initiated behind the starting line of the road. (This line indicates that these vehicles are coming in the viewed section of the road). 
+    * While the Vehicles defined before the ‘SIGNAL X’ are the ones which are already initiated just at the zebra crossing. This feature is for representational purposes. (The rickshaw getting into an angle or the bike moving zig-zag to get the farthest it can get)
     * There is also a constraint for the Road_Length for Representational purposes.
     * Also, Road_Signal_Position can not be greater than Road_Length
     * The parameters defined for each Vehicle type are:
